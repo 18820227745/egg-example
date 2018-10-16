@@ -1,6 +1,6 @@
 node('master') {
 
-    tools.nodejs = "node"
+    tool name: 'node', type: 'nodejs'
 
     currentBuild.result = "SUCCESS"
 
