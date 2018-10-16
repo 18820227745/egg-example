@@ -1,4 +1,4 @@
-node('any') {
+node('master') {
 
 
     currentBuild.result = "SUCCESS"
