@@ -1,5 +1,5 @@
 node('master') {
-
+    tools {nodejs “node”}
 
     currentBuild.result = "SUCCESS"
 
